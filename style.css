@@ -34,8 +34,8 @@ h1{
 }
 
 .game{
-    width:420px;
-    height:420px;
+    width:min(420px, 90vw);
+    aspect-ratio:1;
     display:grid;
     grid-template-columns:repeat(3,1fr);
     grid-template-rows:repeat(3,1fr);
